@@ -15,7 +15,7 @@ $(document).on('click', '#btn-add', function (e) {
             }
             else if (dataResult.statusCode == 201) {
                 alert("Erro ao efetuar operação!");
-                e.preventDefault();
+                
             }
         }
     });
@@ -79,5 +79,5 @@ $(document).on("click", "#delete", function (e) {
 
         }
     });
-    e.preventDefault();
+   
 });
